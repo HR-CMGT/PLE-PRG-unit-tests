@@ -9,5 +9,5 @@ Doorloop eerst de tutorial
 2. Doorloop de tutorial volgens de [README.md](./vitest-tutorial)
 
 Werk hierna de opdracht van de webshop uit. 
-1. Zorg ervoor dat in de terminal de map [webshop-unit-test](./webshop-unit-test) is geopend.
-2. Werk de opdrachten van de [README.md](./webshop-unit-test) uit
+1. Zorg ervoor dat in de terminal de map [webshop-unit-test](./webshop-unit-tests) is geopend.
+2. Werk de opdrachten van de [README.md](./webshop-unit-tests) uit
