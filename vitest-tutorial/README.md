@@ -100,6 +100,9 @@ Nu kun je deze functies in je testbestand importeren en ze testen
 import { describe, expect, it } from 'vitest';
 import { sum, subtract } from '../js/math.js';
 
+import { describe, expect, it } from 'vitest';
+import { sum, subtract } from '../js/math.js';
+
 describe('The Sum function', () => {
     it('testing sum with 2 arguments, positive numbers', () => {
         expect(sum(1, 4)).toBe(5);
@@ -107,7 +110,9 @@ describe('The Sum function', () => {
     it('testing sum with 2 arguments, negative numbers', () => {
         expect(sum(1, -4)).toBe(-3);
     });
+});
 
+describe('The Substract function', () => {
     it('testing substraction with 2 arguments', () => {
         expect(subtract(5, 4)).toBe(1);
     });
